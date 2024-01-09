@@ -103,11 +103,12 @@
     }
 
     .div-footer{
-        width: 100%;
+        width: 90%;
+        justify-content: center !important;
     }
 
     .green-btn , .white-btn{
-        width: 90%;
+        width: 100%;
         font-size: 1.2rem;
     }
 
