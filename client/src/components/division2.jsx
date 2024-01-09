@@ -94,7 +94,7 @@ export default function Division2() {
 
             <span className='div-head-2 mt-4 text-center'>Explore from our <br /> wide range of collection</span>
 
-            <div className="div-footer my-5">
+            <div className="div-footer d-flex my-5">
               <Link to="/collection"><button className='green-btn py-2 px-5'>
                 Browse collection
               </button></Link>
@@ -173,7 +173,7 @@ export default function Division2() {
 
             <span className='div-head-2 mt-4 text-center'>Explore from our <br /> wide range of collection</span>
 
-            <div className="div-footer my-5">
+            <div className="div-footer d-flex my-5">
               <Link to="/sell"><button className='white-btn py-2 px-5'>
                 know more
               </button></Link>
