@@ -41,7 +41,7 @@ export default function Division2() {
     <>
       <div className="conatiner division d-flex flex-column">
 
-        <div className='px-5 division1 d-flex justify-content-evenly align-items-center'>
+        <div className='p-5 division1 d-flex justify-content-evenly align-items-center'>
           <div className="left-div d-flex justify-content-center flex-column align-items-center">
 
             <div className="div-head my-4 text-center">
@@ -94,7 +94,7 @@ export default function Division2() {
 
             <span className='div-head-2 mt-4 text-center'>Explore from our <br /> wide range of collection</span>
 
-            <div className="div-footer my-5">
+            <div className="div-footer d-flex my-5">
               <Link to="/collection"><button className='green-btn py-2 px-5'>
                 Browse collection
               </button></Link>
@@ -114,7 +114,7 @@ export default function Division2() {
           </div>
         </div>
 
-        <div className="px-5 division2 d-flex align-items-center justify-content-evenly">
+        <div className="p-5 division2 d-flex align-items-center justify-content-evenly">
 
           <div className="sell-left d-flex align-items-center justify-content-center">
             <div className="right-img">

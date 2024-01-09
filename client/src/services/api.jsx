@@ -1,14 +1,14 @@
 import axios from "axios"
 import toast from "react-hot-toast"
 
-const VERCELURL = "https://ydmc-backend.vercel.app/"
-// const URL = "http://localhost:8000"
+// const URL = "https://ydmc-backend.vercel.app"
+const URL = "http://localhost:8000"
 
 
 //adding car details api
 export const addCarInfo = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/add/car-info`, data)
+        const res = await axios.post(`${URL}/api/add/car-info`, data)
         if (res.status == 200) {
             toast.success("added car-info succesfully")
             return res.data
@@ -23,7 +23,7 @@ export const addCarInfo = async (data) => {
 
 export const addMainImage = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/add/car-main-image`, data, { headers: { "Content-Type": "multipart/form-data" } })
+        const res = await axios.post(`${URL}/api/add/car-main-image`, data, { headers: { "Content-Type": "multipart/form-data" } })
         if (res.status == 200) {
             toast.success("added main image succesfully")
             return res.data
@@ -38,7 +38,7 @@ export const addMainImage = async (data) => {
 
 export const addCarSummary = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/add/car-summary`, data)
+        const res = await axios.post(`${URL}/api/add/car-summary`, data)
         if (res.status == 200) {
             toast.success("added car summary succesfully")
             return res.data
@@ -53,7 +53,7 @@ export const addCarSummary = async (data) => {
 
 export const addCarSpecification = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/add/car-specification`, data)
+        const res = await axios.post(`${URL}/api/add/car-specification`, data)
         if (res.status == 200) {
             toast.success("added car specification succesfully")
             return res.data
@@ -68,7 +68,7 @@ export const addCarSpecification = async (data) => {
 
 export const addCarImages = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/add/car-images`, data, { headers: { "Content-Type": "multipart/form-data" } })
+        const res = await axios.post(`${URL}/api/add/car-images`, data, { headers: { "Content-Type": "multipart/form-data" } })
         if (res.status == 200) {
             toast.success("added image succesfully")
             return res.data
@@ -85,7 +85,7 @@ export const addCarImages = async (data) => {
 // fetching car details api
 export const getAllCar = async () => {
     try {
-        const res = await axios.get(`${VERCELURL}/api/get/cars`)
+        const res = await axios.get(`${URL}/api/get/cars`)
         if (res.status == 200) {
             return res.data
         }
@@ -99,7 +99,7 @@ export const getAllCar = async () => {
 
 export const getCar = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/get/car-info`, data)
+        const res = await axios.post(`${URL}/api/get/car-info`, data)
         if (res.status == 200) {
             return res.data
         }
@@ -114,7 +114,7 @@ export const getCar = async (data) => {
 
 export const getCarSummary = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/get/car-summary`, data)
+        const res = await axios.post(`${URL}/api/get/car-summary`, data)
         if (res.status == 200) {
             return res.data
         }
@@ -129,7 +129,7 @@ export const getCarSummary = async (data) => {
 
 export const getCarSpecification = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/get/car-specification`, data)
+        const res = await axios.post(`${URL}/api/get/car-specification`, data)
         if (res.status == 200) {
             return res.data
         }
@@ -144,7 +144,7 @@ export const getCarSpecification = async (data) => {
 
 export const getCarImages = async (data) => {
     try {
-        const res = await axios.post(`${VERCELURL}/api/get/car-images`, data)
+        const res = await axios.post(`${URL}/api/get/car-images`, data)
         if (res.status == 200) {
             return res.data
         }
