@@ -12,7 +12,7 @@ export default function Review() {
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="10000">
-                <div className="review-box mx-5 p-3">
+                <div className="review-box m-5 p-3">
                   <div className="rv-top text-center">
                     "Lorem ipsum dolor, sit amet <br /> Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit. <br />Numquam laudantium animi <br />quibusdam doloribus molestias nobis"
                   </div>
@@ -27,7 +27,7 @@ export default function Review() {
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <div className="review-box mx-5 p-3">
+                <div className="review-box m-5 p-3">
                   <div className="rv-top text-center">
                     "Lorem ipsum dolor, sit amet <br /> Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit. <br />Numquam laudantium animi <br />quibusdam doloribus molestias nobis"
                   </div>
@@ -42,7 +42,7 @@ export default function Review() {
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="review-box mx-5 p-3">
+                <div className="review-box m-5 p-3">
                   <div className="rv-top text-center">
                     "Lorem ipsum dolor, sit amet <br /> Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit. <br />Numquam laudantium animi <br />quibusdam doloribus molestias nobis"
                   </div>
