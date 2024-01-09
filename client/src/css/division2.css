@@ -1,0 +1,120 @@
+.division{
+    overflow: hidden;
+}
+.division1{
+    background-color: whitesmoke;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.division2{
+    background-color: #242424;
+    color: aliceblue;
+    height: 90vh;
+}
+
+.div-head{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.div-head-2{
+    font-size: 1.3rem;
+}
+
+.dib-body-1{
+    width: 100% ;
+}
+
+.green-btn{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10pc;
+    transition: .5s ease;
+
+}
+
+.green-btn:hover{
+    background-color: greenyellow;
+    border: 2px solid black;
+    color: black;
+    scale: 1.1;
+    transition: .5s ease;
+}
+
+.white-btn{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10pc;
+    transition: .5s ease;
+
+}
+
+.white-btn:hover{
+    background-color: greenyellow;
+    border: 2px solid black;
+    color: black;
+    scale: 1.1;
+    transition: .5s ease;
+}
+
+.right-img img{
+    height: 30vw;
+    width: fit-content;
+}
+
+.right-img{
+    z-index: 15;
+    transform: translateX(0px);
+}
+
+.svg{
+    overflow: hidden;
+}
+
+.svg svg{
+    z-index: 10 ;
+    height: 90vh;
+    width: fit-content;
+}
+
+.body-icon i{
+    scale: 2;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+
+    .division1 , .division2{
+        flex-direction: column;
+        height: 70vh !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .div-head{
+        font-size: 2.5rem;
+        margin-top: 0% !important;
+    }
+
+    .div-footer{
+        width: 100%;
+    }
+
+    .green-btn , .white-btn{
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .right-div , .sell-left{
+        display: none !important;
+    }
+
+}
+
+

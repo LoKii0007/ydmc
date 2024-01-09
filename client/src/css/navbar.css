@@ -1,0 +1,130 @@
+.sticky-top{
+    overflow-x: hidden;
+}
+
+.custom-navbar{
+    background-color: #242424;
+    height: 10vh;
+    transition: .5s ease ;
+}
+
+.nav-items{
+    font-size: 3vh;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .5s ease-out;
+    transform: translateY(0px);
+    z-index: 10;
+}
+
+.nav-items:hover{
+    color: greenyellow;
+    transition: .5s ease;
+    transform: translateY(-20px);
+}
+
+.menu{
+    background-color: transparent;
+    border: 0px
+}
+
+.active{
+    color: greenyellow ;
+    z-index: 100;
+}
+
+.navbar-left, .navbar-right{
+    overflow-y: hidden;
+}
+
+.tyre{
+    transform: translateX(-50px);
+}
+
+.logo-image{
+    height: 50px;
+    width: fit-content;
+}
+
+.nav-items{
+    transform: translateY(50px);
+}
+
+.light-theme{
+    color: #242424;
+}
+
+.line{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: .5s ease ;
+
+}
+
+.line:hover{
+    transform: rotateX(-30deg);
+}
+.canva-close{
+    color: white !important;
+    background-color: #ffffff;
+}
+.offcanvas{
+    color: white;
+    background-color: #242424 !important;
+    width: fit-content !important;
+    min-width: 300px;
+}
+.canva-item{
+    color: white;
+    font-size: 1.5rem !important;
+    text-decoration: none;
+}
+
+.text{
+    cursor: default;
+}
+
+/* ------------------media queries------------ */
+
+@media screen and (max-width:600px) and (min-width:300px) {
+    .nav-items{
+        font-size: 4vh !important;
+    }
+    .custom-navbar{
+        height: 8vh;
+    } 
+    .navbar-left{
+        margin-left: 10px !important;
+    }
+    .navbar-right{
+        transition: .5s ease-in;
+        margin-right: 10px !important;
+        /* flex-direction: column !important; */
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .nav-item{
+        display: none !important;
+    }
+    .menu{
+        margin: 0px 12px;
+    }
+    .menu-line{
+        background-color: #ffffff;
+        height: 3px;
+        width: 30px;
+        border-radius: 1.5px;
+    }
+    .menu-line:hover{
+        background-color: aqua;
+    }
+
+    .menu-clicked{
+        transform: translateY(120px);
+        transition: .5s ease-in;
+    }
+
+}

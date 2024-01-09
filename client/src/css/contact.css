@@ -1,0 +1,138 @@
+.contact{
+    overflow: hidden;
+    background-color: whitesmoke;
+    /* background-color: #E5E1DA; */
+}
+
+.contact-top{
+    font-size: 3rem;
+    color: white;
+    color: black;
+}
+
+.contact-body{
+    background-color: white;
+    /* overflow: scroll; */
+    transition: .5s ease;
+    width: 180%;
+    height: fit-content;
+    border-radius: 20px;
+    z-index: 100;
+
+}
+
+.trans-icons{
+    background-color: white;
+    border-radius: 10px;
+    transition: .5s ease;
+    z-index: 200;
+
+    /* color: white;     */
+}
+
+.msg-size{
+    transform-origin: top left;
+    transform: scale(1.4);
+    transition: .5s ease;
+    border: 2px solid greenyellow;
+}
+
+.location-size{
+    transform-origin: top right;
+    transform: scale(1.4);
+    transition: .5s ease;
+    border: 2px solid greenyellow;
+}
+
+.contact-right{
+    min-width: 30%;
+}
+
+.translatelocation{
+    transform: translateX(-50%);
+    transition: .5s ease;
+}
+
+.contact-control{
+    width: 100% !important;
+    background-color: whitesmoke !important;
+    background-color: white !important;
+    border: 0px !important;
+    padding-left: 0% !important;
+}
+
+.contact-control:focus{
+    box-shadow: none !important;
+}
+
+.contact-form{
+    border-bottom: 2px solid greenyellow !important;
+}
+
+.location-head{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.location-desc{
+    color: gray;
+}
+
+.msg-submit{
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 24px ;
+    color: black;
+    transition: .3s ease;
+}
+
+.msg-submit:hover{
+    scale: 1.1;
+    transition: .3s ease;
+}
+
+.contact-icons{
+    scale:1.5;
+}
+
+.mail-text a , .contact-text a{
+    text-decoration: none;
+    color: black;
+}
+.mail-text p , .contact-text p{
+    text-decoration: none;
+    color: gray;
+}
+.call-icon{
+    transform: rotate(-45deg);
+}
+
+/* ---------media queries---------- */
+
+@media screen and (max-width:500px) {
+    .contact{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        padding-top: 0% !important;
+    }
+    .contact-top{
+        /* padding:16px 8px !important; */
+        font-size: 2rem;
+    }
+    .message{
+        width: 100%;
+    }
+    
+    .location{
+        width: 100%;
+        height: fit-content;
+    }
+    .send1{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .message-body{
+        width: 100% !important;
+    }
+
+}

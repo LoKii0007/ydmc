@@ -1,0 +1,20 @@
+.contact-form{
+    color: white;
+    color: #242424;
+}
+
+
+.sell-form div input{
+    background-color: transparent !important;
+    border-bottom: 2px solid #242424 !important;
+    border-radius: 0% !important;
+}
+
+.sell-btn{
+    background-color: #242424;
+}
+.sell-btn button{
+    background-color: #242424;
+    color: white !important;
+    border: 0cap !important;
+}

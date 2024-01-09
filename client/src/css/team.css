@@ -1,0 +1,68 @@
+.team{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.team-top{
+    height: 40vh;
+    background-color: #242424;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.founders{
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.team-box{
+    background-color: white;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.tm-top{
+    opacity: .8;
+}
+
+.team-img img{
+    height: 200px;
+    border-radius: 100px;
+}
+
+.team-name{
+    font-size: 2rem;
+}
+
+/* ------------------media queries---------- */
+
+@media screen and (max-width:500px) {
+    .team-bottom{
+        flex-direction: column !important;
+        padding-left: 0px;
+    }
+
+    .founders{
+        font-size: 1.5rem;
+    }
+
+    .team-top{
+        font-size: 1.7rem;
+        height: 25vh;
+    }
+
+    .team-box{
+        max-height: fit-content;
+    }
+
+    .team-name{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}

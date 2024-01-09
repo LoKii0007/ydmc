@@ -1,0 +1,52 @@
+.review{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.review-top{
+    height: 40vh;
+    background-color: #242424;
+    width: 100%;
+    /* color: greenyellow; */
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.review-box{ 
+    background-color: white;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.review-bottom{
+    height: 40vh;
+    padding-left: 100px;
+    transform: translateY(-130px);
+}
+
+.review-img img{
+    height: 70px;
+    border-radius: 35px;
+}
+
+/* ------------------media queries---------- */
+
+@media screen and (max-width:500px) {
+    .review-bottom{
+        flex-direction: column !important;
+        /* overflow: hidden; */
+        height: 25vh;
+        padding-left: 0px;
+    }
+    .review-top{
+        font-size: 1.7rem;
+        padding-left: 50px;
+        height: 25vh;
+    }
+    .review-box{
+        max-height: fit-content;
+    }
+}

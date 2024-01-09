@@ -1,0 +1,47 @@
+.sell-div-1{
+    background-color: whitesmoke;
+}
+
+.sell-head{
+    text-transform: uppercase;
+    font-weight: 700;
+    /* font-size: 2rem; */
+}
+
+.sell-img{
+    width: 100%;
+}
+
+.sell-img img{
+    width: 100%;
+    height: fit-content;
+}
+
+.sell-icon{
+    transform: scale(1.4);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.sell-btn{
+    border-radius: 10px;
+    color: white;
+    border: 2px solid black;
+}
+
+.sell-app{
+    background-color: #25D366;
+}
+.sell-call{
+    background-color: #242424;
+}
+
+/* ----------div 2---------- */
+
+.sell-div-2{
+    background-color: #D8D9DA;
+}
+
+.sell2-top h2{
+    color: black ;
+}

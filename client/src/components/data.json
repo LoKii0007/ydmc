@@ -1,0 +1,45 @@
+Ownership
+{
+"name": "Ownership",
+"value": [
+{ "frontend": "Vehicle Type", "backend": "vehicle_type" },
+{ "frontend": "Engine", "backend": "engine" },
+{ "frontend": "Fuel", "backend": "fuel" },
+{ "frontend": "Peak power", "backend": "peak_power" }
+]
+}
+
+Engine & Transmission
+{
+"name": "Engine & Transmission",
+"value": [
+{ "frontend": "Engine Displacement", "backend": "engine_displacement" },
+{ "frontend": "Power Figure", "backend": "power_figure" },
+{ "frontend": "Torque Figure", "backend": "torque_figure" },
+{ "frontend": "Drivetrain", "backend": "drivetrain" },
+{ "frontend": "Transmission", "backend": "transmission" },
+{ "frontend": "E-Motor Type/Size", "backend": "e_motor_type_size" },
+{ "frontend": "Power Figure (E-Motor)", "backend": "e_motor_power_figure" },
+{ "frontend": "Torque Figure (E-Motor)", "backend": "e_motor_torque_figure" },
+{ "frontend": "Combined Power & Torque", "backend": "combined_power_torque" }
+]
+}
+
+Performance & Efficiency
+{
+"name": "Performance & Efficiency",
+"value": [
+{ "frontend": "Eco Start/Stop System", "backend": "eco_start_stop_system" },
+{ "frontend": "Driving Modes", "backend": "driving_modes" },
+{ "frontend": "Terrain Response Mode", "backend": "terrain_response_mode" },
+{ "frontend": "Active Aerodynamics", "backend": "active_aerodynamics" },
+{ "frontend": "Exhaust System/Type", "backend": "exhaust_system_type" },
+{ "frontend": "Rear Axle Steering", "backend": "rear_axle_steering" },
+{ "frontend": "Acceleration 0-100kmph", "backend": "acceleration_0_100kmph" },
+{ "frontend": "TopSpeed", "backend": "top_speed" },
+{ "frontend": "Fuel Type", "backend": "fuel_type" },
+{ "frontend": "Fuel Consumption", "backend": "fuel_consumption" },
+{ "frontend": "Emission Std", "backend": "emission_std" }
+]
+}
+

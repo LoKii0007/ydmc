@@ -1,0 +1,20 @@
+.logscreen{
+    background-color: whitesmoke;
+    background-image: url("../../public/must.jpg");
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size:cover;
+    height: 90vh;
+    color: white !important;
+    z-index: 10;
+}
+
+.bg-logo{
+    width: 100%;
+}
+
+.bg-logo img{
+   width: 60vw;
+   height: fit-content;
+   z-index: 20;
+}

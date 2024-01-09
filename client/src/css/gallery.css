@@ -1,0 +1,63 @@
+.gallery{
+    background-color: whitesmoke;
+}
+
+.gal-img{
+    width: 100%;
+    height: fit-content;
+}
+
+.glry-acc-body{
+    padding: 0% !important;
+}
+
+.accordion-item {
+    border: none; /* Remove the border */
+    border-radius: 0; /* Optional: Remove border-radius for squared corners */
+}
+
+.accordion-button {
+    border: none; /* Remove the border from the buttons */
+    border-radius: 0; /* Optional: Remove border-radius for squared corners */
+}
+
+.foot-img{
+    border-radius: 10px;
+} 
+
+.foot-img img{
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    transition: .5s  ease;
+    z-index: 20;
+
+}
+.glry-foot{
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.foot-img img:hover{
+    transform: scale(1.15);
+    transition: .5s  ease;
+}
+
+.gl-btn{
+    top: 60%;
+    left: 10%;
+    background-color: transparent ;
+    color:  white;
+    border: none;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    z-index: 30;
+}
+
+
+@media screen and (max-width:500px) {
+    
+}

@@ -1,0 +1,136 @@
+.social{
+    /* background-color: grey; */
+    color: white;
+    font-family: cursive;
+
+}
+
+.social-text{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.fa-brands{
+    height: fit-content;
+    width: fit-content;
+    scale: 1.5;
+    text-decoration: none;
+}
+
+.social-email{
+    border-radius: 15px;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+}
+
+.email{
+    background-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    font-size: 1rem;
+}
+
+.email:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+.fa-brands{
+    color: white;
+}
+
+.fa-instagram:hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.fa-facebook:hover{
+    color: rgb(44, 148, 227);
+}
+
+.signup{
+    background-color: greenyellow;
+    border-radius: 15px;
+    border: none !important;
+}
+
+.footer-line{
+    background-color: greenyellow;
+    height: 3px;
+}
+
+.main-footer{
+    color: white;
+}
+
+.foot-head{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.options{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.option-selected:hover{
+    color: greenyellow;
+}
+
+.design , .copyright{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* --------------------media queries--------------- */
+
+@media screen and (max-width:800px) {
+    .social{
+        justify-content: center !important;
+        margin: 24px auto !important;
+    }
+    .social-left{
+        display: none !important;
+        overflow: hidden;
+    }
+    .social-right{
+        width: 100% !important;
+    }
+    .social-email{
+        flex-direction: column;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+    .email{
+        padding: 10px;
+        text-align: center;
+    }
+    .signup{
+        width:100%;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-radius: 0% !important;
+        /* border-radius: 0% !important; */
+    }
+
+    /* ----------main footer------- */
+
+    .main-footer{
+        width: 100%;
+    }
+
+    .footer-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .company-bottom{
+        flex-direction: column !important;
+    }
+
+    .footer-foot{
+        flex-direction: column !important;
+    }
+}

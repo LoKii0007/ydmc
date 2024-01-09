@@ -1,0 +1,186 @@
+.emi-calculator{
+    background-color: white ;
+    width: 80%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.emi-component{
+    width: 100%;
+    background-color: white ;
+    /* height: 90vh; */
+}
+
+.accordion-item {
+    border: none; /* Remove the border */
+    border-radius: 0; /* Optional: Remove border-radius for squared corners */
+}
+
+.accordion-button {
+    border: none; /* Remove the border from the buttons */
+    border-radius: 0; /* Optional: Remove border-radius for squared corners */
+}
+.emi-head{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.form-range{
+    color: aqua !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: greenyellow;
+    box-shadow: 0 .1rem .25rem green;
+}
+input[type="range"]::-webkit-scrollbar-track {
+    width: 100%;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    background-color: tint-color(green, 70%);
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 1px red, blue;
+}
+
+.card-body{
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.select-car{
+    width: 100%;
+}
+
+.form-range{
+    width: 100%;
+}
+
+.select-button{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.logo{
+    transform: rotate(-180deg);
+    transition: .3s ease;
+}
+
+.logo-rotated{
+    transform: rotate(270deg);
+    transition: .3s ease;
+}
+
+.car-left img{
+    height: 200px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.car-name{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.car-price{
+    font-size: 1.4rem;
+}
+
+.car-names{
+    border: none;
+    transition: .3s ease;
+    background-color: white !important;
+
+}
+
+.emi-option:hover{
+    background-color: black !important;
+    color: white;
+    transition: .3s ease;
+}
+
+.down-payment, .annual , .month{
+    width: 100%;
+}
+
+.calculated-values{
+    width: 100%;
+}
+
+.emi-value{
+    font-size: 2rem;
+}
+
+
+/* --------------media queries----------- */
+
+@media screen and (max-width:500px) {
+    .emi-head{
+        font-size: 2rem;
+    }
+
+    .selected-car{
+        flex-direction: column !important;
+        margin: 16px 0% !important;
+    }
+
+    .emi-body{
+        width: 100%;
+        outline: none !important;
+    }
+
+    .selection{
+        width: 100%;
+    }
+
+    .select-button{
+        width: 100%;
+        margin-right: 0% !important;
+    }
+
+    .accordian-box{
+        width: 100% !important;
+    }
+
+    .select-company{
+        width: 100% !important;
+    }
+
+    .accordian-button:focus{
+        background-color: transparent !important;
+        box-shadow: none  !important;
+        outline: none !important;
+    }
+
+    .car-left{
+        margin-right: 0% !important;
+    }
+
+    .car-left img{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .car-name{
+        font-size: 1.5rem;
+    }
+
+    .calculated-values{
+        font-size: 1rem;
+    }
+    .actual-value{
+        font-size: 1.2rem;
+        /* font-weight: 600; */
+    }
+    .total-emi{
+        font-size: 1.5rem;
+    }
+    .emi-value{
+        font-size: 1.5rem;
+    }
+}

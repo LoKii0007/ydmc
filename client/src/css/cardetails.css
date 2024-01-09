@@ -1,0 +1,166 @@
+.details-page{
+    height: 100%;
+    background-color: whitesmoke; 
+    /* background-color: #F3EEEA; */
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+
+body{
+    background-color: #FAF6F0;
+}
+
+.car-name{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.details-page-head{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.car-price{
+    font-size: 20px;
+}
+
+.car-emi{
+    text-decoration: underline;
+}
+
+.reserve-btn{
+    padding: 8px;
+    width: 10vw;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: .5s ease-out;
+}
+
+.reserve-btn:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease;
+}
+
+.details{
+    /* background-color: whitesmoke; */
+    background-color: greenyellow;
+    width: 100%;
+    border-bottom: 3px solid black;
+    padding: 0% 5%;
+}
+
+/* ------------cacrousel------------ */
+
+.carousel-div{
+    overflow: hidden;
+}
+.carousel-item{
+    width: 100%;
+    height: fit-content;
+}
+
+.carousel-inner{
+    width: 80%;
+    height: fit-content;
+}
+
+.carousel-img{
+    width: 100%;
+    height: fit-content;
+}
+
+.summary-items{
+    padding: 4px 10px;
+    word-break: normal;
+}
+
+.summary-item-hard{
+font-weight: 600;
+}
+
+.sum-item-text{
+    word-break: break-word;
+}
+
+.view-3d button{
+    background-color: greenyellow;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10pc;
+    transition: .5s ease;
+
+}
+
+.view-3d button:hover{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    scale: 1.1;
+    transition: .5s ease;
+
+}
+
+.specification-items{
+    border-bottom: 1px solid black;
+    /* transition: .5s ease-out; */
+    cursor: default;
+}
+
+.specification-items:hover{
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.specification-active{
+    background-color: greenyellow;
+    color: black;
+    transition: .3s ease;
+
+}
+.dropdown-content{
+    background-color: greenyellow;
+    color: black;
+    transition: .3s ease;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 200;
+}
+
+
+/* --------------media queries --------- */
+
+@media screen and (max-width:500px) {
+    .carousel-img{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .car-name{
+        font-size: 2rem !important;
+        font-weight: 600;
+    }
+
+    .details-left{
+        margin-left: 0% !important;
+    }
+
+    .details-desc{
+        display: none !important;
+    }
+
+    .details-right{
+        margin-right: 0% !important;
+    }
+    .store-no , .car-emi-btn{
+        display:  none !important;
+    }
+
+    .reserve-btn{
+        width: fit-content !important;
+        padding: auto 16px !important;
+    }
+}
