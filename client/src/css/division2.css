@@ -92,7 +92,7 @@
 
     .division1 , .division2{
         flex-direction: column;
-        height: 70vh !important;
+        height: fit-content !important;
         padding-left: 0% !important;
         padding-right: 0% !important;
     }
