@@ -1,7 +1,7 @@
 import axios from "axios"
 import toast from "react-hot-toast"
 
-const VERCELURL = "http://localhost:8000"
+const VERCELURL = "https://ydmc-backend.vercel.app/"
 // const URL = "http://localhost:8000"
 
 
