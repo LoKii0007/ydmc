@@ -6,6 +6,7 @@
     background-color: #242424;
     height: 10vh;
     transition: .5s ease ;
+    width:100%
 }
 
 .nav-items{
