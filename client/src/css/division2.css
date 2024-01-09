@@ -93,12 +93,12 @@
     .division1 , .division2{
         flex-direction: column;
         height: fit-content !important;
-        padding-left: 0% !important;
-        padding-right: 0% !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
     }
 
     .div-head{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 0% !important;
     }
 
@@ -107,8 +107,8 @@
     }
 
     .green-btn , .white-btn{
-        width: 100%;
-        font-size: 1.4rem;
+        width: 90%;
+        font-size: 1.2rem;
     }
 
     .right-div , .sell-left{
