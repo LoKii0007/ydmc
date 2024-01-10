@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import "../css/collectionitem.css"
 
 const CollectionItem = ({car} ) => {
+    const [ col, setCol] = useState(true)
 
     const navigate = useNavigate()
 
@@ -10,9 +11,28 @@ const CollectionItem = ({car} ) => {
         navigate(`/cardetails/${car._id}`, { state: { id: car._id } })
         window.scrollTo({ top: 0, behavior: 'smooth' }); 
     }
+
+    
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 600) {
+        setCol(true)
+      } else {
+        setCol(false)
+      }
+    }
+
+    handleResize()
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
+
     return (
         <>
-                <div onClick={handleClick} className="box mx-3 col-4 my-5 d-flex flex-column">
+                <div onClick={handleClick} className={`box mx-3 ${col?"col-12":"col-4"} my-5 d-flex flex-column`}>
                     <div className="box-head d-flex justify-content-center align-items-center">
                         <img className='box-img' src={`/images/${car.image}`} alt="" />
                         {/* <img className='box-img' src={car.img} alt="" /> */}

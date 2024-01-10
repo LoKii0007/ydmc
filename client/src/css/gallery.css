@@ -4,7 +4,7 @@
 
 .gal-img{
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .glry-acc-body{
@@ -27,7 +27,7 @@
 
 .foot-img img{
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
     border-radius: 20px;
     transition: .5s  ease;
     z-index: 20;
@@ -50,7 +50,7 @@
     background-color: transparent ;
     color:  white;
     border: none;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 5px;
     word-spacing: 15px;

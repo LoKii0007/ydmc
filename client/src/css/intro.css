@@ -162,12 +162,7 @@
 
 @media screen and (max-width:500px) {
     .intro{
-        /* max-height: 70vh; */
-        /* background-image: url('../../public/images/1704037193694-urus.jpg'); */
-        /* background-image: url('../../public/must.jpg'); */
-        /* background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
+        height: fit-content;
         flex-direction: column !important;
         justify-content: space-between !important;
         align-items: center !important;
