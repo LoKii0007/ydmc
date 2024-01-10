@@ -80,8 +80,8 @@
     background-color: #242424 !important;
     width: fit-content !important;
     min-width: 300px;
-    z-index: 1000 !important;
 }
+
 .canva-item{
     color: white;
     font-size: 1.5rem !important;
