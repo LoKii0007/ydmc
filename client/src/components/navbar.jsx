@@ -86,7 +86,7 @@ const Navbar = () => {
                                 <Link to="/collection" className={`nav-items ${window.location.href === url + "/collection" ? "active" : ""}`}>Preowned Cars</Link>
                             </div>
                             <div className="nav-items mx-3">
-                                <Link to="/buy" className={`nav-items ${window.location.href === url + "/buy" ? "active" : ""}`}>Sell car</Link>
+                                <Link to="/buy" className={`nav-items ${window.location.href === url + "/sell" ? "active" : ""}`}>Sell car</Link>
                             </div>
                             <div className="nav-items mx-3">
                                 <Link to="/contact" className={`nav-items ${window.location.href === url + "/contact" ? "active" : ""}`}>Contact</Link>
