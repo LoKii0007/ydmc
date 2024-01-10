@@ -72,7 +72,7 @@ export default function Contact() {
                     <div onClick={handleMsg} className={`msg-icon trans-icons py-1 px-2 ${locationClicked ? "msg-size" : ""} `}>
                         <i className="fa-solid fa-paper-plane"></i>
                     </div>
-                    <div onClick={handleLocation} className={`location-icon trans-icons py-3 px-4 ${!locationClicked ? "location-size" : ""}`}>
+                    <div onClick={handleLocation} className={`location-icon trans-icons py-1 px-2 ${!locationClicked ? "location-size" : ""}`}>
                         <i className="fa-solid fa-location-dot"></i>
                     </div>
                 </div>
