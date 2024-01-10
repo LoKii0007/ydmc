@@ -45,7 +45,7 @@
 .tyre{
     transform: translateX(-70px);
     height: 50px;
-    width:min-content;
+    width:100%;
 }
 
 .logo-image, .intro-image{
