@@ -205,7 +205,7 @@ const CarDetails = () => {
 
                 <div className="view-3d m-5 text-center">
                     <button className='py-2 px-5'>
-                        <Link to="/gallery">View Image Gallery</Link>
+                        <Link to="/gallery">Image Gallery</Link>
                     </button>
                 </div>
 

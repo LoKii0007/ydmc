@@ -33,8 +33,7 @@
 
 .msg-size{
     transform-origin: top left;
-    transform: scale(1.1);
-    /* scale: 2; */
+    transform: scale(1.4);
     transition: .5s ease;
     border: 2px solid greenyellow;
 }

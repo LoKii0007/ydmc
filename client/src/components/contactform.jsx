@@ -39,11 +39,11 @@ export default function ContactForm() {
                         <label htmlFor="image2 " style={{scale:"1.5"}} className="text-center justify-content-center d-flex form-label "><i class="fa-solid fa-file"></i></label>
                         <input type="file" style={{display:"none"}}  className="form-control sell-control" id="image2" />
                     </div>
-                    <div className='mb-3 d-flex flex-column'>
+{/*                     <div className='mb-3 d-flex flex-column'>
                         <label className="align-items-start d-flex form-label ">Select Image</label>
                         <label htmlFor="image3 " style={{scale:"1.5"}} className="text-center justify-content-center d-flex form-label "><i class="fa-solid fa-file"></i></label>
                         <input type="file" style={{display:"none"}}  className="form-control sell-control" id="image3" />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="sell-btn text-center">

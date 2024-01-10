@@ -1,8 +1,8 @@
 import axios from "axios"
 import toast from "react-hot-toast"
 
-// const URL = "https://ydmc-backend.vercel.app"
-const URL = "http://localhost:8000"
+const VERCELURL = "https://ydmc-backend.vercel.app"
+// const URL = "http://localhost:8000"
 
 
 //adding car details api
