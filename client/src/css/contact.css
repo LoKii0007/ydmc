@@ -35,7 +35,7 @@
     transform-origin: top left;
     transform: scale(1.1);
     transition: .5s ease;
-    padding: 8px !important;
+    padding: 8px 16px !important;
     border: 2px solid greenyellow;
 }
 
@@ -43,7 +43,7 @@
     transform-origin: top right;
     transform: scale(1.1);
     transition: .5s ease;
-    padding: 8px !important;
+    padding: 8px 16px !important;
     border: 2px solid greenyellow;
 }
 

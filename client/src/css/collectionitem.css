@@ -17,7 +17,7 @@
 }
 
 .box-img{
-    width: 100%;
+    width: 100% !important;
     /* height: max-content; */
     background-color: whitesmoke;
 }
@@ -64,6 +64,6 @@
     }
     .box-img{
         width: 100%;
-        height: fit-content;
+        /* height: fit-content; */
     }
 }

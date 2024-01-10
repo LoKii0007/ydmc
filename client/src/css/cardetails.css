@@ -69,7 +69,7 @@ body{
 }
 
 .carousel-img{
-    width: 100%;
+    width: 100% !important;
     /* height: fit-content; */
 }
 
@@ -136,7 +136,7 @@ font-weight: 600;
 @media screen and (max-width:500px) {
     .carousel-img{
         width: 100%;
-        height: fit-content;
+        /* height: fit-content; */
     }
 
     .car-name{
