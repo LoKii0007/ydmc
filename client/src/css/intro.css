@@ -12,7 +12,7 @@
 .bg-img{
     opacity: .8 !important;
     width: 100% !important;
-    height: fit-content !important;
+    height: max-content !important;
 }
 
 .carousel-inner{
