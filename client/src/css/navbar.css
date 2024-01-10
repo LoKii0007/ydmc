@@ -43,12 +43,12 @@
 }
 
 .tyre{
-    transform: translateX(-50px);
+    transform: translateX(-70px);
 }
 
-.logo-image{
+.logo-image, .intro-image{
     height: 50px;
-    width: max-content;
+    width:min-content;
 }
 
 .nav-items{

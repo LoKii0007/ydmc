@@ -68,7 +68,7 @@ const Navbar = () => {
         <>
             <div className='sticky-top custom-nav'>
                 <div className="tyre mt-3 position-absolute">
-                    <img className='logo-image' src="/porsche-model.png" alt="image" />
+                    <img className='intro-image' src="/porsche-model.png" alt="image" />
                 </div>
 
                 <div className={`custom-navbar d-flex justify-content-between align-items-center ${scrolled ? "scrolled" : ""} `} >
