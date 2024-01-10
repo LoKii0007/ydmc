@@ -18,7 +18,7 @@
 
 .box-img{
     width: 100%;
-    height: fit-content;
+    height: max-content;
     background-color: whitesmoke;
 }
 

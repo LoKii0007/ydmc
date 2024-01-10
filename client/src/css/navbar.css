@@ -48,7 +48,7 @@
 
 .logo-image{
     height: 50px;
-    width: fit-content;
+    width: max-content;
 }
 
 .nav-items{
@@ -80,6 +80,7 @@
     background-color: #242424 !important;
     width: fit-content !important;
     min-width: 300px;
+    z-index: 1000 !important;
 }
 .canva-item{
     color: white;
