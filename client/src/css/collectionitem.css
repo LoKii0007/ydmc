@@ -2,8 +2,8 @@
     background-color: #F3EEEA;
     background-color: #F1EFEF;
     background-color: #F0F0F0;
-    height: fit-content;
-    width: fit-content;
+    /* height: fit-content;
+    width: fit-content; */
     overflow: hidden;
     border-radius: 10px;
     border: 2px solid black;
@@ -18,7 +18,7 @@
 
 .box-img{
     width: 100%;
-    height: max-content;
+    /* height: max-content; */
     background-color: whitesmoke;
 }
 

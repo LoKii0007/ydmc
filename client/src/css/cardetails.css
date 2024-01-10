@@ -70,7 +70,7 @@ body{
 
 .carousel-img{
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .summary-items{
