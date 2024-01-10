@@ -26,20 +26,21 @@
     border-radius: 10px;
     transition: .5s ease;
     z-index: 200;
+    scale:1.5;
 
     /* color: white;     */
 }
 
 .msg-size{
     transform-origin: top left;
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: .5s ease;
     border: 2px solid greenyellow;
 }
 
 .location-size{
     transform-origin: top right;
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: .5s ease;
     border: 2px solid greenyellow;
 }
