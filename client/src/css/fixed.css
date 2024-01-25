@@ -4,8 +4,14 @@
     z-index:99999;
 }
 
-.fa-whatsapp{
-    transform:scale(2);
-    background-color: #59CE72;
-    border-radius: 16px;
+.whatsapp-icon{
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (max-width:500px) {
+    .whatsapp-icon{
+        height: 60px;
+        width: 60px;
+    }
 }
