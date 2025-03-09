@@ -1,11 +1,16 @@
+.sellCar{
+    display: flex !important;
+    min-height: fit-content;
+}
+
 .sell-div-1{
     background-color: whitesmoke;
+    width: 50%;
 }
 
 .sell-head{
     text-transform: uppercase;
     font-weight: 700;
-    /* font-size: 2rem; */
 }
 
 .sell-img{
@@ -14,7 +19,6 @@
 
 .sell-img img{
     width: 100%;
-    /* height: fit-content; */
 }
 
 .sell-icon{
@@ -39,9 +43,32 @@
 /* ----------div 2---------- */
 
 .sell-div-2{
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.sell-div-2-inner{
     background-color: #D8D9DA;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .sell2-top h2{
     color: black ;
+}
+
+@media screen and (max-width: 800px) {
+    .sellCar{
+        flex-direction: column;
+    }
+    .sell-div-1{
+        width: 100%;
+    }
+    .sell-div-2{
+        width: 100%;
+        background-color: #D8D9DA;
+    }
+    .sell-div-2-inner{
+        padding: 0px;
+    }
 }

@@ -1,8 +1,6 @@
 import axios from "axios"
 
-// const url = "http://localhost:8000"
-const url = "https://ydmc-backend.vercel.app"
-
+const url = import.meta.env.VITE_APP_BACKEND_URL
 
 
 //authentication api

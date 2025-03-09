@@ -4,21 +4,87 @@
     /* background-color: #E5E1DA; */
 }
 
+.contact-body{
+    background-color: white;
+    transition: .5s ease;
+    width: 180vw;
+    height: fit-content;
+    border-radius: 20px;
+    z-index: 100;
+    min-height: fit-content;
+    height: 70vh;
+    padding: 50px !important;
+    margin-left: calc(10vw -48px) !important;
+}
+
 .contact-top{
     font-size: 3rem;
     color: white;
     color: black;
 }
 
-.contact-body{
-    background-color: white;
-    /* overflow: scroll; */
-    transition: .5s ease;
-    width: 180%;
-    height: fit-content;
-    border-radius: 20px;
-    z-index: 100;
+.location{
+    width: 90vw;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-items: center;
+}
 
+.location-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.location-head{
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.location-data{
+    width: 50%;
+    height: 100%;
+}
+
+.location-data iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.message{
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 54px !important;
+}
+
+.message-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send1{
+    text-align: left;
+}
+
+.message-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .trans-icons{
@@ -34,7 +100,7 @@
     transform: scale(1.2);
     transition: .5s ease;
     padding: 8px 16px !important;
-    border: 2px solid greenyellow;
+    border: 2px solid black;
 }
 
 .location-size{
@@ -42,7 +108,7 @@
     transform: scale(1.2);
     transition: .5s ease;
     padding: 8px 16px !important;
-    border: 2px solid greenyellow;
+    border: 2px solid black;
 }
 
 .contact-right{
@@ -50,14 +116,13 @@
 }
  
 .translatelocation{
-    transform: translateX(-50%);
+    transform: translateX(-100vw);
     transition: .5s ease;
 }
 
 .contact-control{
     width: 100% !important;
     background-color: whitesmoke !important;
-    background-color: white !important;
     border: 0px !important;
     padding-left: 0% !important;
 }
@@ -66,13 +131,12 @@
     box-shadow: none !important;
 }
 
-.contact-form{
-    border-bottom: 2px solid greenyellow !important;
+.message-body form{
+    width: 100%;
 }
 
-.location-head{
-    font-size: 1.5rem;
-    color: black;
+.contact-form{
+    border-bottom: 2px solid black !important;
 }
 
 .location-desc{
@@ -117,23 +181,65 @@
         padding-top: 0% !important;
     }
     .contact-top{
-        /* padding:16px 8px !important; */
         font-size: 2rem;
     }
-    .message{
-        width: 100%;
+    .contact-foot{
+        margin: 0% !important;
+        padding: 24px 0% !important;
     }
-    
+
+    .contact-body{
+        width: 180vw;
+        box-sizing: content-box;
+        padding: 0% !important;
+        margin-left: 10vw !important;
+    }
+
     .location{
+        flex-direction: column !important;
+        width: 50% !important;
+        margin: 0% !important;
+        overflow: hidden;
+    }
+    .location-text{
         width: 100%;
-        height: fit-content;
+        font-size: .7rem;
+    }
+    .location-data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .location-data iframe{
+        width: fit-content;
+        height: 40vh;
+    }
+
+
+    .message{
+        width: 50% !important;
+        margin: 0% !important;
+        padding: 24px 0px !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .message-text{
+        width: 100%;
+        padding: 0% !important;
     }
     .send1{
         font-size: 1.5rem;
         font-weight: 600;
+        text-align: center !important;
     }
     .message-body{
         width: 100% !important;
+    }
+
+    .message-form{
+        width: 80% !important;
     }
 
 }

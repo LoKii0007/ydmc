@@ -1,9 +1,7 @@
 import axios from "axios"
 import toast from "react-hot-toast"
 
-const URL = "https://ydmc-backend.vercel.app"
-// const URL = "http://localhost:8000"
-
+const URL = import.meta.env.VITE_APP_BACKEND_URL
 
 //adding car details api
 export const addCarInfo = async (data) => {

@@ -4,6 +4,10 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   z-index: 10;
 }
+
+.intro{
+  overflow-x: hidden;
+}
 ::-webkit-scrollbar {
   width: 1vh;
 }

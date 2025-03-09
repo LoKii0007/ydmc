@@ -65,8 +65,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <>
-            <div className='sticky-top custom-nav'>
+        <nav className='sticky-top'>
+            <div className='custom-nav'>
                 <div className="tyre mt-3 position-absolute">
                     <img className='intro-image' src="/porsche-model.png" alt="image" />
                 </div>
@@ -117,7 +117,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </nav>
     )
 }
 
